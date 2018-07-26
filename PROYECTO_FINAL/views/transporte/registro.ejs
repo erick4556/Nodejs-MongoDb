@@ -1,0 +1,113 @@
+
+<html>
+
+<% include ../partials/header %>
+<% include ../partials/sidebar_nav_logistica %>
+
+
+ <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">
+ </h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+       
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+
+                                    <form method="post" action="/save">
+
+                                     <div class="form-group">
+
+                                            <label>Placa</label>
+
+                                            <input class="form-control" name="placa" type="text" placeholder="Placa" required="">
+                                        </div> 
+
+                                        <div class="form-group">
+
+                                            <label>Tipo de transporte</label>
+
+                                            <input class="form-control" name="tipo_tran" type="text" placeholder="Tipo de transporte" required="">
+                                        </div> 
+
+
+                                        <div class="form-group">
+
+                                            <label>Modelo</label>
+
+                                            <input class="form-control" name="modelo" type="text" placeholder="Modelo" required="">
+                                        </div>
+
+                                        <div class="form-group">
+
+                                            <label>Marca</label>
+
+                                            <input class="form-control" name="marca" type="text" placeholder="Marca" required="">
+                                        </div> 
+
+
+                                        <div class="form-group">
+
+                                            <label>Dimesión</label>
+
+                                            <input class="form-control" name="dimension" type="text" placeholder="Dimensión" required="">
+                                        </div>  
+
+
+
+                                        <div class="form-group">
+
+                                            <label>Peso</label>
+
+                                            <input class="form-control" name="peso" type="text" placeholder="Peso" required="">
+                                        </div>  
+
+                                         <div class="form-group">
+
+                                            <label>Año</label>
+
+                                            <input class="form-control" name="year" type="text" placeholder="Año" required="">
+                                        </div>
+                                      
+
+                                        
+                                        <button type="submit" class="btn btn-primary">Submit Button</button>
+                                        <button type="reset" class="btn btn-default">Reset Button</button>
+                                    </form>
+                                  
+                                                               
+                                  </div>
+
+                                </div>
+
+                                </div>
+                         
+                            </div>
+                            <!-- /.row (nested) -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+   
+   <% include ../partials/footer %>
+
+</html>
